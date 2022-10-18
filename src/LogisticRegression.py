@@ -157,6 +157,7 @@ class LogisticRegression():
             prediction[x] = 1
         return prediction
 
+      
 print("Using Logistic Regression")
 print("\n")
 predictionLR=LogisticRegression(0.05,1000)
